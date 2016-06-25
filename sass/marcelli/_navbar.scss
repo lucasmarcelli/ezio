@@ -1,0 +1,16 @@
+
+.navbar {
+  @include auto-vertical-padding(0.25rem);
+}
+
+.nav-link {
+  color: $nav-link-colour !important;
+}
+
+.navbar-brand {
+  font-size: 1rem;
+}
+
+.bg-faded {
+  background-color: $bg-colour;
+}

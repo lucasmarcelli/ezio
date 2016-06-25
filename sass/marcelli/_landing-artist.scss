@@ -1,0 +1,52 @@
+
+.artist {
+  min-height: 100vh;
+}
+
+.artist-title {
+  margin-top: 1.5rem;
+}
+
+hr {
+  width: 100%;
+}
+
+.carousel {
+  @include make-col();
+  @include make-col-offset(2);
+  @include make-col-span(8);
+  color: $bg-colour;
+  height: 100vh;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+
+}
+
+.carousel-control {
+  background: $bg-colour;
+  background-image: none !important;
+  color: $bg-colour;
+
+  .icon-prev,
+  .icon-next {
+    color: $hr-colour;
+  }
+
+}
+
+.carousel-inner {
+  color: $bg-colour;
+
+  .carousel-item {
+    color: $bg-colour;
+    text-align: center;
+
+  }
+
+  img {
+    margin: 0 auto;
+    max-height: 98vh;
+    max-width: initial;
+
+  }
+}

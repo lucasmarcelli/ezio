@@ -1,0 +1,46 @@
+@mixin auto-margins($left: auto, $right: $left) { //adds margin to left and right side equally
+  margin-left: $left;
+  margin-right: $right;
+}
+
+@mixin auto-padding($left: auto, $right: $left) { //adds margin to left and right side equally
+  padding-left: $left;
+  padding-right: $right;
+}
+
+@mixin auto-vertical-padding($top: auto, $bottom: $top) {
+  padding-bottom: $bottom;
+  padding-top: $top;
+
+}
+
+hr {
+  border-color: $hr-colour;
+  color: $hr-colour;
+  width: 75%;
+
+ }
+
+body {
+  background-color: $bg-colour;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.seperator {
+  margin-top: -1em;
+  min-height: calc(100vh + 1em);
+  padding-top: 10vh;
+}
+
+.art {
+  background: url("img/kitchen.jpg") no-repeat;
+  background-size: cover;
+}
+
+.grand {
+  background: url("img/dad-and-g.jpg") no-repeat;
+  background-size: cover;
+}

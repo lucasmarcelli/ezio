@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["EpT0V"]); }
+
+__d('PagesPlatformDialogContainer.react',['PagesPlatformDialogStore','PureStoreBasedStateMixin','React','ReactLayeredComponentMixin'],function a(b,c,d,e,f,g){'use strict';if(c.__markCompiled)c.__markCompiled();var h=c('React').createClass({displayName:'PagesPlatformDialogContainer',mixins:[c('PureStoreBasedStateMixin')(c('PagesPlatformDialogStore')),c('ReactLayeredComponentMixin')],statics:{calculateState:function(){return c('PagesPlatformDialogStore').getState();}},renderLayers:function(){if(!this.state.dialogClass)return {};var i=this.state.dialogClass;return {dialog:c('React').createElement(i,this.state.dialogProps)};},render:function(){return null;}});f.exports=h;},null);

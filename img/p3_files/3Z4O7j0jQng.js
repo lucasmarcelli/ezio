@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["2WAOl"]); }
+
+__d('PagesPlatformActionConstants',[],function a(b,c,d,e,f,g){'use strict';if(c.__markCompiled)c.__markCompiled();var h={BOOKING_REQUEST_CREATED:'booking_request_created',BOOKING_REQUEST_DECLINED:'booking_request_declined',BOOKING_REQUEST_ACCEPTED:'booking_request_accepted',BOOKING_REQUEST_ACCEPT_ERROR:'booking_request_accept_error',BOOKING_REQUEST_ACCEPT_INITIATED:'booking_request_accept_initiated',DIALOG_SHOWN:'dialog_shown',DIALOG_CLOSED:'dialog_closed'};f.exports=h;},null);
