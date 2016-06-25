@@ -19,8 +19,15 @@
 
   }
 
-  .middle-one {
-    @include auto-margins(3em);
+  .image-and-caption {
+    @include make-col();
+    @include make-col-span(3);
+    text-align: center;
+
+    .header-text {
+      color: $bg-colour;
+      font-size: 2em;
+    }
   }
 
 }
@@ -38,6 +45,10 @@
     text-align: center;
 
   }
+}
+
+.middle-one {
+  @include auto-margins(1.5em);
 }
 
 .images {
