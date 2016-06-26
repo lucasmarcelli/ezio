@@ -1,3 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["6Z7Lu"]); }
-
-__d('CommercialBreakUFIOverlay.react',['cx','fbt','React'],function a(b,c,d,e,f,g,h,i){var j,k;if(c.__markCompiled)c.__markCompiled();j=babelHelpers.inherits(l,c('React').Component);k=j&&j.prototype;l.prototype.render=function(){'use strict';return (c('React').createElement('div',{className:"_29y7"},i._("Ad break now in progress")));};function l(){'use strict';j.apply(this,arguments);}f.exports=l;},null);

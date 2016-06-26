@@ -16,7 +16,7 @@ hr {
   @include make-col-offset(2);
   @include make-col-span(8);
   color: $bg-colour;
-  height: 100vh;
+  height: 90vh;
   margin-bottom: 1.5rem;
   margin-top: 1.5rem;
 
@@ -45,7 +45,7 @@ hr {
 
   img {
     margin: 0 auto;
-    max-height: 98vh;
+    max-height: 89.5vh;
     max-width: initial;
 
   }
